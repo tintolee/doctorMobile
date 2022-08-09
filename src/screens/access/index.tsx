@@ -9,6 +9,6 @@ export * from './OtpScreen';
 export * from './UserDetailsSCreen';
 export * from './PhoneNumber';
 export * from './SetPin';
-export * from './SignInScreen';
+export * from './PatientSignInScreen';
 export * from './PasswordResetScreen';
 export * from './CheckMail';

@@ -43,6 +43,7 @@ const AppContainer = () => {
    'RobotoRegular':require('./assets/fonts/Roboto-Regular.ttf'),
    'RobotoMedium':require('./assets/fonts/Roboto-Medium.ttf'),
    'Poppins':require('./assets/fonts/Poppins-ExtraBold.ttf'),
+   'Poppins-Regular':require('./assets/fonts/Poppins-Regular.ttf'),
   });
 
  

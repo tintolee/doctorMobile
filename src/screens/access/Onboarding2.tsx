@@ -42,14 +42,14 @@ export const Onboarding2: React.FunctionComponent = () => {
 <View style={styles.buttonView}>
 <Button
     text='LOG IN'
-    onPress={() => navigation.navigate('Otp')}
+    onPress={() => navigation.navigate('PatientSignIn')}
     />
 </View>
 
 <View style={styles.buttonView2}>
 <Button2
     text='REGISTER'
-    onPress={() => navigation.navigate('Otp')}
+    onPress={() => navigation.navigate('SignUp')}
     />
 </View>
   

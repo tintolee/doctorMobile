@@ -4,7 +4,7 @@ import { Onboarding1,Onboarding2,Onboarding3, AuthLanding ,AuthScreen, ResetPass
 import OtpScreen from '../screens/access/OtpScreen';
 import PhoneNumberScreen from '../screens/access/PhoneNumber';
 import SetPinScreen from '../screens/access/SetPin';
-import SignInScreen from '../screens/access/SignInScreen';
+import SignInScreen from '../screens/access/PatientSignInScreen';
 import SignUpScreen from '../screens/access/SignUpScreen';
 import UserDetailsScreen from '../screens/access/UserDetailsSCreen';
 
@@ -18,7 +18,7 @@ type AuthStackParamList = {
   AuthLanding: undefined;
   AuthScreen: undefined;
   SignUp:undefined;
-  SignIn:undefined;
+  PatientSignIn:undefined;
   Otp:undefined;
   UserDetails:undefined;
   PhoneNumber:undefined;
@@ -38,7 +38,7 @@ export const AuthStack: React.FC = () => {
       <Stack.Screen name="CheckMail" component={CheckMail} />
       <Stack.Screen name="PasswordReset" component={ResetPassword} />
       <Stack.Screen name="SignUp" component={SignUpScreen} />
-      <Stack.Screen name="SignIn" component={SignInScreen} />
+      <Stack.Screen name="PatientSignIn" component={SignInScreen} />
       <Stack.Screen name="Otp" component={OtpScreen} />
       <Stack.Screen name="UserDetails" component={UserDetailsScreen} />
       <Stack.Screen name="PhoneNumber" component={PhoneNumberScreen} />
